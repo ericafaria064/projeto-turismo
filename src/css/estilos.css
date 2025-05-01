@@ -1,0 +1,19 @@
+/* estilos.css */
+
+/* Garante que o HTML e o body ocupem toda a altura da tela */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Layout flexível para o body */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Área principal cresce para ocupar o espaço restante */
+  .main-content {
+    flex: 1;
+  }
+  
