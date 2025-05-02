@@ -37,15 +37,39 @@
       <!-- fim menu -->
 
       <h3>Tela Fale Conosco</h3>
+      <form class="col-6" id="form-fale-conosco">
+        <div class="mb-3">
+          <label class="form-label">Nome</label>
+          <input type="text" class="form-control" placeholder="nome completo" required autofocus>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Telefone</label>
+          <input type="number" class="form-control" placeholder="() xxxx-xxxx" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">E-mail</label>
+          <input type="email" class="form-control" placeholder="nome@hotmail.com" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Descrição</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+      </form>
     </div>
-
   </div>
-
   <footer class="py-3 my-4">
     <hr>
     <p class="text-center text-body-secondary">@ 2025</p>
   </footer>
   <script src="../css/bootstrap-5.3.5/dist/js/bootstrap.min.js"></script>
+  <script src="../js/fale-conosco.js"></script>
 </body>
 
 </html>
